@@ -40,3 +40,28 @@ body{
 }
 /* start main */
 
+.bottom_section{
+    background-color: white;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.task{
+    background-color: var(--bool-primary);
+    border-radius: 5px;
+    font-size:15px;
+    height: 30px;
+    width: 105px;
+    margin-right: 5px;
+}
+
+.section{
+    border-radius: 5px;
+    font-size:15px;
+    height: 30px;
+    width: 105px;
+    margin-right: 5px;
+}
