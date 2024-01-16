@@ -8,18 +8,22 @@
     --bool-light: #f6f8f9;
 }
 
-body{
+*{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     background: var(--bool-light);
 }
 /* start header */
 #site_header{
-    background: var(--bool-light);
+    background-color: white;
 }
 
 .logo{
     height: 100px;
-    
 }
 
 .logo_img{
@@ -34,7 +38,5 @@ body{
     font-size: 50px;
     font-weight: bold;
 }
-#site_main{
-    background: var(--bool-pink);
-    height: 400px;
-}
+/* start main */
+
