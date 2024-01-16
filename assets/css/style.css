@@ -1,0 +1,40 @@
+:root{
+    --bool-primary: #47adf1;
+    --bool-purple: #9c72e4;
+    --bool-lightgreen: #64c0a9;
+    --bool-orange: #f29e33;
+    --bool-pink: #d863a1;
+    --bool-green: #b0c926;
+    --bool-light: #f6f8f9;
+}
+
+body{
+    margin: 0;
+    background: var(--bool-light);
+}
+/* start header */
+#site_header{
+    background: var(--bool-light);
+}
+
+.logo{
+    height: 100px;
+    
+}
+
+.logo_img{
+    vertical-align: bottom;
+    width: 50px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logo_text{
+    font-size: 50px;
+    font-weight: bold;
+}
+#site_main{
+    background: var(--bool-pink);
+    height: 400px;
+}
