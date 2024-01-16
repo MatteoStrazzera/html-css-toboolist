@@ -77,6 +77,9 @@ body {
     border-radius: 0px 0px 10px 10px;
 }
 
+section{
+    padding-top: 20px;
+}
 ul {
     list-style: none;
     padding-inline-start: 0;
