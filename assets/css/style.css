@@ -1,4 +1,4 @@
-:root{
+:root {
     --bool-primary: #47adf1;
     --bool-purple: #9c72e4;
     --bool-lightgreen: #64c0a9;
@@ -8,25 +8,26 @@
     --bool-light: #f6f8f9;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: var(--bool-light);
 }
+
 /* start header */
-#site_header{
+#site_header {
     background-color: white;
 }
 
-.logo{
+.logo {
     height: 100px;
 }
 
-.logo_img{
+.logo_img {
     vertical-align: bottom;
     width: 50px;
     height: 60px;
@@ -34,13 +35,14 @@ body{
     margin-top: 20px;
 }
 
-.logo_text{
+.logo_text {
     font-size: 50px;
     font-weight: bold;
 }
+
 /* start main */
 
-.button_section{
+.button_section {
     background-color: white;
     margin-top: 50px;
     margin-left: 180px;
@@ -49,37 +51,86 @@ body{
     border-radius: 10px 10px 0px 0px;
 }
 
-.task{
+.task {
     background-color: var(--bool-primary);
     border-radius: 5px;
-    font-size:15px;
+    font-size: 15px;
     height: 30px;
     width: 105px;
     margin-right: 5px;
 }
 
-.section{
+.section {
     border-radius: 5px;
-    font-size:15px;
+    font-size: 15px;
     height: 30px;
     width: 105px;
     margin-right: 5px;
 }
 
-.list_section{
+/* start list section */
+.list_section {
     background-color: white;
     margin-left: 180px;
     margin-right: 180px;
     padding: 20px;
-    border-radius: 0px 0px 10px 10px ;
+    border-radius: 0px 0px 10px 10px;
 }
 
 ul {
     list-style: none;
+    padding-inline-start: 0;
 }
 
-section{
-    padding-top: 20px;
+li {
+    padding: 1rem 0rem;
 }
 
+.check {
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 1rem;
+}
 
+.cross {
+    color: red;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 1px 3px;
+    margin-right: 1rem;
+}
+
+label {
+    color: white;
+    font-size: 0.6rem;
+    border: 1px;
+    border-radius: 1rem;
+    padding: 0.4rem;
+    margin: 1rem;
+}
+
+.editorial {
+    background-color: var(--bool-primary);
+}
+
+.q1_goals {
+    background-color: var(--bool-purple);
+}
+
+.recruiting {
+    background-color: var(--bool-lightgreen);
+}
+
+.mobile {
+    background-color: var(--bool-orange);
+}
+
+.website {
+    background-color: var(--bool-pink);
+}
+
+.sales {
+    background-color: var(--bool-green);
+}
